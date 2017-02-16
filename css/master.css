@@ -1,0 +1,171 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+  display: flex;
+  z-index: 50;
+  /*background-color: white;
+  opacity: .2;
+  color: white;*/
+}
+.section1{
+  color: white;
+}
+/*.head{
+  margin-left: 5%;
+  color: white;
+  z-index: 30;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 3%;
+}*/
+.head.p:onhover{
+  border: 1px;
+}
+a{
+  text-decoration: none;
+}
+.menulink{
+  /*width: 10%;*/
+  text-decoration: none;
+  color: white;
+  margin-left: 5%;
+  z-index: 30;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 3%;
+  display: inline;
+}
+
+#aboutlink{
+  color: darkgrey;
+  /*padding-right: 5%;*/
+  padding-right: 1em;
+}
+#aboutlink:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
+#spanner{
+  margin-left: 25%;
+}
+#headertext{
+  float: right;
+  display: flex;
+  background-color: white;
+  /*opacity: 60;*/
+  position: absolute;
+  z-index: 5;
+
+}
+#mainimg{
+  /*margin-top: -10%;*/
+  margin-top: -93px;
+  /*margin-top: 0;*/
+  padding-left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 600px;
+  position: relative;
+
+}
+#donatebikebutton{
+  background-color: green;
+  border-radius: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  font-size: 20px;
+  color: white;
+  margin-top: -70%;
+}
+#donatebikebutton:hover{
+  background-color: darkgreen;
+}
+#donatebikebutton1{
+  background-color: green;
+  border-radius: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  font-size: 20px;
+  color: white;
+  margin-top: -300px;
+  margin-left: 33%;
+  position: absolute;
+}
+.donatebikebutton1link{
+  color: white;
+}
+.hr1{
+  border-bottom: .5px solid white;
+  width: 100%;
+  color: white;
+  z-index: 90;
+  }
+.quotefooter{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: -4%;
+  font-size: 15px;
+}
+.horizontal_dotted_line{
+  border-bottom: 3px dotted lightgrey;
+  width: 80%;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.partiallist{
+  align-content: center;
+  /*margin-left: 5%;*/
+  padding-bottom: 1%;
+}
+.partiallist-img{
+  margin-left: 3%;
+  padding-bottom: 3%;
+  height: 200px;
+  width: 200px;
+}
+#view-more-recipients{
+  float: right;
+  /*margin-bottom: 3%;*/
+  /*padding-bottom: 20px;*/
+  padding-right: 5%;
+  color: #000000;
+
+  /*padding-bottom: 1em;*/
+}
+#view-more-recipients:hover{
+  text-decoration: underline;
+  text-decoration-color: #000000;
+}
+.logo-imgs{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.greybox{
+  background-color: #F7F9FA;
+  text-align: center;
+  height: 250px;
+}
+#lendahand{
+  padding-top: 6%;
+  padding-bottom: 1%;
+  font-size: 20px;
+}
+#copyright{
+  text-align: center;
+}
+footer{
+  display: flex;
+  margin-left: 10%;
+  color: darkgrey;
+  align-items: center;
+  text-align: center;
+  /*width: 100%;*/
+}
