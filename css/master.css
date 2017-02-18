@@ -41,7 +41,7 @@ a{
 
 #aboutlink{
   color: darkgrey;
-  /*padding-right: 5%;*/
+  text-decoration: none;
   padding-right: 1em;
 }
 #aboutlink:hover{

@@ -7,15 +7,59 @@ body{
 }
 .additional-info-title{
   text-align: center;
+  padding-top: 0.5em;
 }
-.container-fluid{
+/*.container-fluid{
+  display: flex;
+}*/
+.row-middle{
+  display: -webkit-flex;
   display: flex;
 }
-.row-middle{
-  flex-direction: row;
+.how-to-donate-container{
+  padding: 2em;
 }
 .volunteer-images{
   width:575px;
   height: 514px;
-  padding:
+  padding: 2em;
+  /*border-radius: 10px;*/
+}
+.words{
+  padding: 3em;
+}
+.image-right{
+  float: right;
+}
+.quotefooter{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: -4%;
+  font-size: 15px;
+}
+.horizontal_dotted_line{
+  border-bottom: 3px dotted lightgrey;
+  width: 80%;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+#aboutlink{
+  color: darkgrey;
+  padding-right: 1em;
+  text-decoration: none;
+}
+#aboutlink:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
+#copyright{
+  text-align: center;
+}
+footer{
+  display: flex;
+  margin-left: 10%;
+  color: darkgrey;
+  align-items: center;
+  text-align: center;
 }
