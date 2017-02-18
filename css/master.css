@@ -71,7 +71,7 @@ a{
   position: relative;
 
 }
-#donatebikebutton{
+/*#donatebikebutton{
   background-color: green;
   border-radius: 20px;
   padding-left: 10%;
@@ -81,9 +81,27 @@ a{
   font-size: 20px;
   color: white;
   margin-top: -70%;
+}*/
+#donatebikebutton{
+  background-color: transparent;
+  border: 2px solid green;
+  border-bottom: 5px solid green;
+  border-radius: 4px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  font-size: 20px;
+  margin-top: -70%;
+}
+#donatebikebutton a{
+  color: green !important;
 }
 #donatebikebutton:hover{
   background-color: darkgreen;
+}
+#donatebikebutton:hover a{
+  color: white !important;
 }
 #donatebikebutton1{
   background-color: green;
