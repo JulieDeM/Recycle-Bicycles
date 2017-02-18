@@ -54,13 +54,6 @@ body{
   margin-bottom: -4%;
   font-size: 15px;
 }
-.horizontal_dotted_line{
-  border-bottom: 3px dotted lightgrey;
-  width: 80%;
-  align-items: center;
-  margin-left: 10%;
-  margin-top: 5%;
-}
 .greybox{
   background-color: #F7F9FA;
   text-align: center;
@@ -110,14 +103,29 @@ body{
 .container-middle-fluid{
   background-color: #F7F9FA;
 }
+.horizontal_dotted_line{
+  border-bottom: 3px dotted lightgrey;
+  width: 80%;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+#aboutlink{
+  color: darkgrey;
+  padding-right: 1em;
+  text-decoration: none;
+}
+#aboutlink:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
 #copyright{
   text-align: center;
 }
 footer{
   display: flex;
+  margin-left: 10%;
   color: darkgrey;
-  /*text-align: center;*/
-  align-items: center;
+  /*align-items: center;*/
   text-align: center;
-  /*width: 100%;*/
 }
