@@ -10,6 +10,7 @@ header{
   opacity: .2;
   color: white;*/
 }
+
 .section1{
   color: white;
 }
@@ -175,6 +176,7 @@ a{
   padding-top: 6%;
   padding-bottom: 1%;
   font-size: 20px;
+  position: relative;
 }
 #copyright{
   text-align: center;

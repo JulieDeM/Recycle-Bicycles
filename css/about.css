@@ -81,6 +81,7 @@ body{
     width: 100%;
     overflow: hidden;
     list-style: none;
+    /*direction: rtl;*/
   }  /* float & allow room for the widest item */
   ul li
   {
