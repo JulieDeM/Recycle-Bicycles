@@ -73,8 +73,16 @@ ul.topnav li.icon {display: none;}
   background-repeat: no-repeat;
     background-size: 100% 100%;
 }*/
-
-
+#mainimg{
+  width:100%;
+  border-top: 3px solid #5B9BD5;
+  max-height: 550px;
+}
+#partiallisttitle{
+  text-align: center;
+  margin-top: 2%;
+  font-weight: bold;
+}
 #donatebikebutton{
   background-color: transparent;
   border: 2px solid green;
@@ -140,7 +148,15 @@ ul.topnav li.icon {display: none;}
   margin-top: 5%;
 }
 
-
+#lendahand{
+  padding-top: 6%;
+  padding-bottom: 1%;
+  font-size: 20px;
+  position: relative;
+}
+#copyright{
+  text-align: center;
+}
 
 
 
