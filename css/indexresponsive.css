@@ -15,16 +15,13 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /*background-color: #333;*/
   background-color: transparent;
-
 }
 
-ul.topnav li {float: left;}
-ul.topnav li hi {float: left;}
+ul.topnav li {float: right;}
+ul.topnav li hi {float: right;}
 ul.topnav li a {
   display: inline-block;
-  /*color: #f2f2f2;*/
   color: #555;
   text-align: center;
   padding: 14px 16px;
@@ -35,9 +32,7 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover {
-  /*background-color: #555;*/
   border-bottom: 2px #555 solid;
-  /*color: #f2f2f2;*/
 }
 
 ul.topnav li.icon {display: none;}
@@ -66,13 +61,6 @@ ul.topnav li.icon {display: none;}
     text-align: left;
   }
 }
-
-/*.mainimg{
-  max-width: 100%;
-  height: auto;
-  background-repeat: no-repeat;
-    background-size: 100% 100%;
-}*/
 #mainimg{
   width:100%;
   border-top: 3px solid #5B9BD5;
@@ -119,21 +107,58 @@ ul.topnav li.icon {display: none;}
   margin-left: 33%;
   position: absolute;
 }
-
-
-/*lend a helping hand*/
-.greybox{
-  background-color: #F7F9FA;
-  text-align: center;
-  height: 250px;
+/*SECTION ABOUT THE VIEW MORE BICYCLES*/
+#view-more-recipients{
+  float: right;
+  padding-right: 5%;
+  color: #000000;
 }
-#lendahand{
-  padding-top: 6%;
-  padding-bottom: 1%;
-  font-size: 20px;
-  position: relative;
+#view-more-recipients:hover{
+  text-decoration: underline;
+  text-decoration-color: #000000;
+}
+
+/*SECTION WITH THE BUTTONS TO DONATE*/
+.donationsection{
+  display: flex;
+}
+.buttonstyle{
+  border: 2px #6F91D1 solid;
+  border-radius: 5px;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: .1em;
+  padding-bottom: .1em;
+  background-color: transparent;
+  color: #596366;
+  text-decoration: none;
+}
+.buttonstyle:hover{
+  background-color: #6F91D1;
+  color: white;
+}
+.sectionsdonate{
+  padding-left:1.5em;
+  padding-right: 1.2em;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+.sectiontitle{
+  color:#6F91D1;
+  text-transform: uppercase;
+}
+.sectionp{
+  /*padding-left: 2em;*/
+  padding-right: 4em;
 }
 /*footer, not been mobile optimized*/
+footer{
+  display: flex;
+  margin-left: 10%;
+  color: darkgrey;
+  align-items: center;
+  text-align: center;
+}
 .quotefooter{
   text-align: center;
   margin-top: 5%;
@@ -147,21 +172,31 @@ ul.topnav li.icon {display: none;}
   margin-left: 10%;
   margin-top: 5%;
 }
-
+.logo-imgs{
+  text-align: center;
+  width: 100%;
+}
+.partiallist-img{
+  padding-left: 2em;
+}
 #lendahand{
   padding-top: 6%;
   padding-bottom: 1%;
   font-size: 20px;
   position: relative;
 }
+#aboutlink{
+  color: darkgrey;
+  text-decoration: none;
+  padding-right: 1em;
+}
+#aboutlink:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
 #copyright{
   text-align: center;
 }
-
-
-
-
-
 
 
 /*media queries*/
