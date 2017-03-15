@@ -12,6 +12,18 @@ body{
 /*.container-fluid{
   display: flex;
 }*/
+.titledonate{
+  color: #7395CF;
+}
+.googlemapcontainer{
+  width: 800px;
+}
+#map {
+  height: 300px;
+  width: 100%;
+  /*width: 40em;*/
+  background-color: grey;
+}
 .row-middle{
   display: -webkit-flex;
   display: flex;
@@ -30,6 +42,12 @@ body{
 }
 .image-right{
   float: right;
+}
+.donationlocation{
+  display: flex;
+}
+.donationofbikesandmoney{
+  padding: 3em;
 }
 .quotefooter{
   text-align: center;
