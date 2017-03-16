@@ -9,9 +9,9 @@ body{
   text-align: center;
   padding-top: 0.5em;
 }
-/*.container-fluid{
+.container-fluid{
   display: flex;
-}*/
+}
 .titledonate{
   color: #7395CF;
 }
@@ -39,9 +39,21 @@ body{
 }
 .words{
   padding: 3em;
+  margin-left: 45%;
 }
-.image-right{
+.words-left{
+  margin-left:12%;
+  padding-right: 1%;
+}
+.words-right{
+  margin-left: 10%;
+  padding-right: 3%;
+}
+/*.image-right{
   float: right;
+}*/
+.flexit{
+display: flex;
 }
 .donationlocation{
   display: flex;

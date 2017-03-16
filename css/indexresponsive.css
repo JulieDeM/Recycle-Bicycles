@@ -176,6 +176,10 @@ footer{
   text-align: center;
   width: 100%;
 }
+#bbbs{
+  width:100px !important;
+  height:100px !important;
+}
 .partiallist-img{
   padding-left: 2em;
 }

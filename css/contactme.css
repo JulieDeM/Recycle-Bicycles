@@ -7,3 +7,6 @@
 .color1{
   background-color: blue;
 }
+.person-color1{
+  display: flex;
+}
