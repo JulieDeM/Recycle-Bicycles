@@ -1,3 +1,128 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", "Helvetica Neue", Helvetica, Arial, sans-serif, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1.15em;
+  color: #576366;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+.contactnames{
+  display: flex;
+}
+.person{
+  flex-direction: column;
+}
+.color1{
+  background-color: blue;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+ul.topnav li {float: right;}
+ul.topnav li hi {float: right;}
+ul.topnav li a {
+  display: inline-block;
+  color: #555;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+  float: right;
+}
+
+ul.topnav li a:hover {
+  border-bottom: 2px #555 solid;
+}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+#oldbikes{
+  width:100%;
+  border-top: 3px solid #5B9BD5;
+  max-height: 400px !important;
+}
+#partiallisttitle{
+  text-align: center;
+  margin-top: 2%;
+  font-weight: bold;
+}
+#donatebikebutton{
+  background-color: transparent;
+  border: 2px solid green;
+  border-bottom: 5px solid green;
+  border-radius: 4px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  font-size: 20px;
+  margin-top: -70%;
+}
+#donatebikebutton a{
+  color: green !important;
+}
+
+/*buttons that need to be optimized*/
+#donatebikebutton:hover{
+  background-color: darkgreen;
+}
+#donatebikebutton:hover a{
+  color: white !important;
+}
+#donatebikebutton1{
+  background-color: green;
+  border-radius: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  font-size: 20px;
+  color: white;
+  margin-top: -300px;
+  margin-left: 33%;
+  position: absolute;
+}
+/*SECTION ABOUT THE VIEW MORE BICYCLES*/
+#view-more-recipients{
+  float: right;
+  padding-right: 5%;
+  color: #000000;
+}
+
 .contactnames{
   display: flex;
 }
@@ -8,5 +133,141 @@
   background-color: blue;
 }
 .person-color1{
+  background-color: #ED7D33;
+}
+/*.person-color1{
+  background-color: #ED7D33;
+}*/
+.person-color2{
+  background-color: #F7C033;
+}
+.person-color3{
+  background-color: #5B9BD5;
+}
+.person-color4{
+  background-color: #70AD47;
+}
+
+/*EMAIL BRUCE SECTION*/
+#emailbruce{
+  border-color: #4472C4 !importants;
+  border-style: solid;
+  background-color: #5B9BD5;
+  }
+#contactinginput{
+  border-color: #4472C4 !importants;
+  border-style: solid;
+}
+#view-more-recipients:hover{
+  text-decoration: underline;
+  text-decoration-color: #000000;
+}
+
+/*SECTION WITH THE BUTTONS TO DONATE*/
+.donationsection{
   display: flex;
 }
+.buttonstyle{
+  border: 2px #6F91D1 solid;
+  border-radius: 5px;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: .1em;
+  padding-bottom: .1em;
+  background-color: transparent;
+  color: #596366;
+  text-decoration: none;
+}
+.buttonstyle:hover{
+  background-color: #6F91D1;
+  color: white;
+}
+.sectionsdonate{
+  padding-left:1.5em;
+  padding-right: 1.2em;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+.sectiontitle{
+  color:#6F91D1;
+  text-transform: uppercase;
+}
+.sectionp{
+  /*padding-left: 2em;*/
+  padding-right: 4em;
+}
+/*footer, not been mobile optimized*/
+footer{
+  display: flex;
+  margin-left: 10%;
+  color: darkgrey;
+  align-items: center;
+  text-align: center;
+}
+.quotefooter{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: -4%;
+  font-size: 15px;
+}
+.horizontal_dotted_line{
+  border-bottom: 3px dotted lightgrey;
+  width: 80%;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.logo-imgs{
+  text-align: center;
+  width: 100%;
+}
+#bbbs{
+  width:30%!important;
+  height:100px !important;
+}
+.partiallist-img{
+  padding-left: 2em;
+}
+#lendahand{
+  padding-top: 6%;
+  padding-bottom: 1%;
+  font-size: 20px;
+  position: relative;
+}
+#aboutlink{
+  color: darkgrey;
+  text-decoration: none;
+  padding-right: 1em;
+}
+#aboutlink:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
+#copyright{
+  text-align: center;
+}
+
+
+/*media queries*/
+/*// Small screens*/
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+/*// Medium screens*/
+@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+/*// Large screens*/
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+/*// XLarge screens*/
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+/*// XXLarge screens*/
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */

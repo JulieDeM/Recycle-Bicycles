@@ -45,6 +45,14 @@ body{
   margin-left:12%;
   padding-right: 1%;
 }
+#words-left1{
+  margin-left: 12%;
+  width: 420px;
+}
+#words-left{
+  margin-left: 12%;
+  width: 430px;
+}
 .words-right{
   margin-left: 10%;
   padding-right: 3%;
@@ -52,6 +60,19 @@ body{
 /*.image-right{
   float: right;
 }*/
+/*dt, dd {float: left; display: block; width: 50%}
+dt {clear: left;}
+#container {
+  display: table;
+  }*/
+
+/*#row  {
+  display: table-row;
+  }
+
+#left, #right, #middle {
+  display: table-cell;
+  }*/
 .flexit{
 display: flex;
 }
