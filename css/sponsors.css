@@ -77,13 +77,50 @@ ul.topnav li.icon {display: none;}
   margin-left: 5%;
   font-size: 60px;
   margin-bottom: 10%;
-  position: fixed;
+  position: absolute;
 }
 #break{
   margin-left: 30px;
 }
 #sponsor-title{
-  margin-top: 10%;
+  /*margin-top: 10%;*/
+  margin-left: 5%;
+  margin-right: 5%;
+  z-index: 90;
+}
+.sponsorimages{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#bicycle-village{
+  width:500px;
+  height:100%;
+  margin-right:10%;
+  align-items: center;
+  padding-bottom: 4%;
+}
+#campus-cycles{
+  width: 300px;
+  height: 200px;
+}
+#true-goo{
+  color:#5B9BD5;
+  font-size: 50px;
+}
+#rtd{
+  /*width:200px;*/
+  height:200px;
+  margin-right: 5%;
+}
+#t9{
+  margin-right: 2%;
+}
+#project-recycle{
+
+}
+#hill-climb{
+  font-size: 40px;
+  color: #5E6267;
 }
 #partiallisttitle{
   text-align: center;
