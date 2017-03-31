@@ -36,7 +36,6 @@ body{
   /*margin-top: 3%;*/
   padding-top: 2%;
   text-align: center;
-
 }
 .style1{
   color: white;
@@ -44,8 +43,13 @@ body{
   /*border: 1px solid white;
   border-radius: 10px;*/
 }
-
-
+form{
+  margin-left: 50%;
+  /*margin-right: 50%;*/
+}
+.more-images{
+  margin-left: 5%;
+}
 
 /*may need to delete or change below*/
 .quotefooter{
