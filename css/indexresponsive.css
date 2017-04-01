@@ -16,9 +16,20 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color: transparent;
+  /*transform: rotate(180deg);*/
 }
-
-ul.topnav li {float: right;}
+#menutransform{
+  transform: rotate(180deg);
+}
+#menutransform{
+  transform: rotate(-180deg);
+}
+/*ul.topnav li {float: left;
+  text-direction:row-reverse;
+}
+ul.topnav li hi {float: left;}*/
+ul.topnav li {float: right;
+transform: rotate(-180deg);}
 ul.topnav li hi {float: right;}
 ul.topnav li a {
   display: inline-block;
@@ -117,6 +128,7 @@ ul.topnav li.icon {display: none;}
   float: right;
   padding-right: 5%;
   color: #000000;
+  /*margin-bottom: 3%;*/
 }
 #view-more-recipients:hover{
   text-decoration: underline;
@@ -126,6 +138,7 @@ ul.topnav li.icon {display: none;}
 /*SECTION WITH THE BUTTONS TO DONATE*/
 .donationsection{
   display: flex;
+  /*flex-wrap: wrap;*/
 }
 .buttonstyle{
   border: 2px #6F91D1 solid;
@@ -154,7 +167,8 @@ ul.topnav li.icon {display: none;}
 }
 .sectionp{
   /*padding-left: 2em;*/
-  padding-right: 4em;
+  padding-right: 2em;
+  width:70%;
 }
 /*footer, not been mobile optimized*/
 footer{
@@ -166,7 +180,7 @@ footer{
 }
 .quotefooter{
   text-align: center;
-  margin-top: 5%;
+  margin-top: 9%;
   margin-bottom: -4%;
   font-size: 15px;
 }
@@ -180,10 +194,25 @@ footer{
 .logo-imgs{
   text-align: center;
   width: 100%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-right: 3%;
 }
 #bbbs{
-  width:100px !important;
-  height:100px !important;
+  /*width:100px !important;
+  height:100px !important;*/
+  width:20%;
+  align:center;
+}
+#rmhs{
+  /*width:50%;*/
+  image-orientation: center;
+}
+#cova{
+  width:20%;
+}
+#colcoalition{
+  width:16%;
 }
 .partiallist-img{
   padding-left: 2em;
@@ -212,7 +241,14 @@ footer{
 /*// Small screens*/
 @media only screen { } /* Define mobile styles */
 
-@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) {
+  .donationsection{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 5%;
+}
+ } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 /*// Medium screens*/
 @media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
