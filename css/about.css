@@ -10,12 +10,24 @@ body{
   position: relative;
   -webkit-font-smoothing: antialiased;
 }
-#recbikelogo1{
+#recbikelogo{
   height:100px;
   width:100px;
   margin-left:2%;
   margin-top:1%;
   /*margin-bottom:1%;*/
+}
+.bike-recipients-partial{
+  columns: 2;
+  column-gap: -40px !important;
+  column-width: -10px;
+  margin:0;
+  /*width:50%;*/
+  /*margin-right: 16%;*/
+  /*column-width: 10px;*/
+  /*margin-left: -14%;*/
+
+  /*align-content: center;*/
 }
 ul.topnav {
   list-style-type: none;
@@ -255,3 +267,45 @@ footer{
   /*align-items: center;*/
   text-align: center;
 }
+
+
+
+/*NAV BAR TESTING*/
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
