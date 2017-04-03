@@ -5,18 +5,27 @@
             [('<div id="iw-container">' +
                     '<div class="iw-title">Campus Cycles</div>' +
                     '<div class="iw-content">' +
-                      '<div class="iw-subTitle">South Washington Street</div>' +
-                      '<p>2102 S Washington St<br>Denver, CO 80210<br>'+
-                      '<br>Phone: (303) 698-2811<br>'+ '<a href="https://goo.gl/RNY3Ei" target="_blank" class="iw-directions">Directions</a>' +'</p>'+
+                      '<div class="iw-subTitle">2102 S Washington St<br>Denver, CO 80210<br></div>' +
+                      '<p>'+
+                      'Phone: (303) 698-2811<br>'+ '<a href="https://goo.gl/RNY3Ei" target="_blank" class="iw-directions">Directions</a>' +'</p>'+
                     '</div>' +
                     '<div class="iw-bottom-gradient"></div>' +
                   '</div>'), 39.678434, -104.978936, 4],
+            // [('<div id="iw-container">' +
+            //         '<div class="iw-title">Campus Cycles</div>' +
+            //         '<div class="iw-content">' +
+            //           '<div class="iw-subTitle">South Washington Street</div>' +
+            //           '<p>2102 S Washington St<br>Denver, CO 80210<br>'+
+            //           '<br>Phone: (303) 698-2811<br>'+ '<a href="https://goo.gl/RNY3Ei" target="_blank" class="iw-directions">Directions</a>' +'</p>'+
+            //         '</div>' +
+            //         '<div class="iw-bottom-gradient"></div>' +
+            //       '</div>'), 39.678434, -104.978936, 4],
             [('<div id="iw-container">' +
                     '<div class="iw-title">Bicycle Village - Aurora</div>' +
                     '<div class="iw-content">' +
-                      '<div class="iw-subTitle">South Havana Street, Aurora, CO</div>' +
-                      '<p>2802 S Havana St<br>Aurora, CO 80014<br>'+
-                      '<br>Phone: (303) 750-1064<br>'+ '<a href="https://goo.gl/ECnruk" target="_blank" class="iw-directions">Directions</a>' +'</p>'+
+                      '<div class="iw-subTitle">2802 S Havana St<br>Aurora, CO 80014</div>' +
+                      '<p>'+
+                      'Phone: (303) 750-1064<br>'+ '<a href="https://goo.gl/ECnruk" target="_blank" class="iw-directions">Directions</a>' +'</p>'+
                     '</div>' +
                     '<div class="iw-bottom-gradient"></div>' +
                   '</div>'), 39.665513, -104.864825, 5],

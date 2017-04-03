@@ -35,18 +35,18 @@ ul.topnav {
   background-color: transparent;
   /*transform: rotate(180deg);*/
 }
-#menutransform{
+/*#menutransform{
   transform: rotate(180deg);
 }
 #menutransform{
   transform: rotate(-180deg);
-}
+}*/
 /*ul.topnav li {float: left;
   text-direction:row-reverse;
 }
 ul.topnav li hi {float: left;}*/
 ul.topnav li {float: right;
-transform: rotate(-180deg);}
+}
 ul.topnav li hi {float: right;}
 ul.topnav li a {
   display: inline-block;
