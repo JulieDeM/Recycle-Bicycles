@@ -10,6 +10,23 @@ body{
   position: relative;
   -webkit-font-smoothing: antialiased;
 }
+#recbikelogo1{
+  height:100px;
+  width:100px;
+  margin-left:2%;
+  margin-top:1%;
+  /*margin-bottom:1%;*/
+}
+#learn-more-link{
+  font-size:30px;
+}
+#non-profit-text{
+  line-height: .5px;
+  font-size:40px;
+}
+#titlerecycle{
+  font-size:60px;
+}
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -81,6 +98,20 @@ ul.topnav li.icon {display: none;}
   width:100%;
   border-top: 3px solid #5B9BD5;
   max-height: 550px;
+  /*position: absolute;*/
+  /*position: relative;*/
+  z-index: 1;
+}
+.image{
+  position: relative;
+   width: 100%; /* for IE 6 */
+}
+#sitetitlename {
+   position: absolute;
+   top: -200px;
+   left: 0;
+   width: 100%;
+   color:white;
 }
 #partiallisttitle{
   text-align: center;

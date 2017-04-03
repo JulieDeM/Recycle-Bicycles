@@ -1,6 +1,127 @@
 body{
-  padding: 0;
   margin: 0;
+  padding: 0;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", "Helvetica Neue", Helvetica, Arial, sans-serif, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1.15em;
+  color: #576366;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  /*transform: rotate(180deg);*/
+}
+#menutransform{
+  transform: rotate(180deg);
+}
+#menutransform{
+  transform: rotate(-180deg);
+}
+/*ul.topnav li {float: left;
+  text-direction:row-reverse;
+}
+ul.topnav li hi {float: left;}*/
+ul.topnav li {float: right;
+transform: rotate(-180deg);}
+ul.topnav li hi {float: right;}
+ul.topnav li a {
+  display: inline-block;
+  color: #555;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+  float: right;
+}
+
+ul.topnav li a:hover {
+  /*border-bottom: 2px #555 solid;*/
+  /*text-decoration: underline;*/
+}
+.menulink:hover{
+  text-decoration: underline;
+  text-decoration-color: #679DD2 !important;
+}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+#mainimg1{
+  width:100%;
+  border-top: 3px solid #5B9BD5;
+  max-height: 450px;
+
+  /*image-resolution: 100dpi;*/
+  /*image-rendering: pixelated;*/
+  /*image-rendering: auto !important;*/
+  /*image-rendering: crisp-edges !important;*/
+  /*image-rendering: pixelated;*/
+}
+#recbikelogo{
+  height:100px;
+  width:100px;
+  margin-left:2%;
+  margin-top:1%;
+  /*margin-bottom:1%;*/
+}
+#partiallisttitle{
+  text-align: center;
+  margin-top: 2%;
+  font-weight: bold;
+}
+#donatebikebutton{
+  background-color: transparent;
+  border: 2px solid green;
+  border-bottom: 5px solid green;
+  border-radius: 4px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  font-size: 20px;
+  margin-top: -70%;
+}
+#donatebikebutton a{
+  color: green !important;
+}
+
+/*buttons that need to be optimized*/
+#donatebikebutton:hover{
+  background-color: darkgreen;
+}
+#donatebikebutton:hover a{
+  color: white !important;
 }
 .additional-information-container{
   background-color: #F7F9FA;
@@ -18,12 +139,16 @@ body{
 .googlemapcontainer{
   width: 800px;
 }
-#map {
+#map{
   height: 300px;
   width: 100%;
-  /*width: 40em;*/
   background-color: grey;
 }
+/*#map {
+  height: 300px;
+  width: 100%;
+  background-color: grey;
+}*/
 .row-middle{
   display: -webkit-flex;
   display: flex;
@@ -113,4 +238,74 @@ footer{
   color: darkgrey;
   align-items: center;
   text-align: center;
+}
+
+
+
+/*GOOGLE MAPS API INFO WINDOW STYLING*/
+#map {
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    max-width: none;
+}
+.gm-style-iw {
+    width: 355px !important;
+    top: 15px !important;
+    left: 0px !important;
+    right:0px !important;
+    /*background-color: #fff;*/
+    /*text-decoration: underline;
+    color: #7798CD;*/
+    /*border-bottom: #7798CD 2px solid;*/
+    /*box-shadow: 0 1px 6px rgba(178, 178, 178, 0.6);*/
+    /*border: 1px solid rgba(72, 181, 233, 0.6);*/
+    /*border-radius: 2px 2px 10px 10px;*/
+}
+#iw-container {
+    margin-bottom: 10px;
+    padding: 0;
+    margin: 0;
+}
+#iw-container .iw-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 10px;
+    text-decoration: underline;
+    color: #7798CD;
+    /*background-color: #48b5e9;*/
+    /*color: white;*/
+    margin: 0;
+    /*border-radius: 2px 2px 0 0;*/
+}
+#iw-container .iw-content {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-right: 1px;
+    padding: 15px 5px 20px 15px;
+    max-height: 140px;
+    /*overflow-y: auto;*/
+    /*overflow-x: hidden;*/
+}
+.iw-content img {
+    float: right;
+    margin: 0 5px 5px 10px;
+}
+.iw-subTitle {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+.iw-bottom-gradient {
+    position: absolute;
+    width: 326px;
+    height: 25px;
+    bottom: 10px;
+    right: 18px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
 }

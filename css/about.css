@@ -10,6 +10,13 @@ body{
   position: relative;
   -webkit-font-smoothing: antialiased;
 }
+#recbikelogo1{
+  height:100px;
+  width:100px;
+  margin-left:2%;
+  margin-top:1%;
+  /*margin-bottom:1%;*/
+}
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -78,12 +85,11 @@ ul.topnav li.icon {display: none;}
     display: inline-block;
     /*width: 100px;*/
     /*height: 100px;*/
-    width:33%;
+    width:33.5%;
     margin: 0;
 }
 
 #mainimgabout:after {
-    content: '';
     display: inline-block;
     width: 100%;
 }

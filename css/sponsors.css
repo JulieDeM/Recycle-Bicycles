@@ -10,6 +10,13 @@ body{
   position: relative;
   -webkit-font-smoothing: antialiased;
 }
+#recbikelogo{
+  height:100px;
+  width:100px;
+  margin-left:2%;
+  margin-top:1%;
+  /*margin-bottom:1%;*/
+}
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -93,7 +100,8 @@ ul.topnav li.icon {display: none;}
   margin-right: 5%;
 }
 #bicycle-village{
-  width:500px;
+  /*width:500px;*/
+  max-width: 100%;
   height:100%;
   margin-right:10%;
   align-items: center;
@@ -105,18 +113,25 @@ ul.topnav li.icon {display: none;}
 }
 #true-goo{
   color:#5B9BD5;
-  font-size: 50px;
+  font-size: 45px;
+  margin-right: 10%;
+  margin-left: 5%;
 }
 #rtd{
   /*width:200px;*/
   height:200px;
-  margin-right: 5%;
+  margin-right: 10%;
 }
 #t9{
-  margin-right: 2%;
+  margin-right: 5%;
+}
+#julied{
+  /*max-width: 100%;*/
+  width:150px;
+  height: 150px;
 }
 #project-recycle{
-
+  max-width: 100%;
 }
 #hill-climb{
   font-size: 40px;
@@ -126,6 +141,13 @@ ul.topnav li.icon {display: none;}
   text-align: center;
   margin-top: 2%;
   font-weight: bold;
+}
+#flexme{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 6%;
 }
 #donatebikebutton{
   background-color: transparent;
@@ -266,17 +288,37 @@ footer{
 @media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 /*// Medium screens*/
-@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) {
+  #row1{
+    margin-bottom: 10%;
+  }
+  } /* min-width 641px, medium screens */
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  #row1{
+    margin-bottom: 10%;
+  }
+   } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 /*// Large screens*/
-@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) {
+  #row1{
+    margin-bottom: 10%;
+  }
+  } /* min-width 1025px, large screens */
 
-@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+  #row1{
+    margin-bottom: 20%;
+  }
+   } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 
 /*// XLarge screens*/
-@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 90.063em) {
+  #row1{
+    margin-bottom: 10%;
+  }
+  } /* min-width 1441px, xlarge screens */
 
 @media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
 
