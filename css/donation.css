@@ -309,3 +309,18 @@ footer{
     background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
     background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
 }
+#iw-directions{
+  border: 1px #7798CD solid;
+  color: white;
+  background-color:#7798CD;
+  text-decoration: none;
+  padding-left: 2%;
+  padding-top: .5%;
+  padding-right: 2%;
+  padding-bottom: .5%;
+  align-content: center;
+}
+#iw-directions:hover{
+  color: #7798CD;
+  background-color:white;
+}
