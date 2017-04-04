@@ -11,9 +11,34 @@
   </head>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="css/master.css" media="screen" title="no title">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+jQuery(function($){
+    $( '.menu-btn' ).click(function(){
+      $('.responsive-menu').addClass('expand')
+      $('.menu-btn').addClass('btn-none')
+    })
+
+     $( '.close-btn' ).click(function(){
+      $('.responsive-menu').removeClass('expand')
+      $('.menu-btn').removeClass('btn-none')
+    })
+  })
+</script>
+<script type="text/javascript">
+jQuery(function($){
+       $( '.menu-btn' ).click(function(){
+       $('.responsive-menu').toggleClass('expand')
+       })
+    })
+</script>
+<!-- <link rel="stylesheet" href="/css/master.css"> -->
   <body>
 
-    <header>
+    <!-- <header>
         <h1 class="head">Recycle Bicycles</h1>
         <span id="spanner"></span>
         <a href="/donation.html" class="menulink">Make a Donation</a>
@@ -21,7 +46,22 @@
         <a href="/contact.html" class="menulink">Contact Us</a>
         <a href="/about.html" class="menulink">About Us</a>
       </div>
-    </header>
+    </header> -->
+<!-- <div class="mobile-nav">
+     <div class="menu-btn" id="menu-btn">
+	<div></div>
+	<span></span>
+	<span></span>
+	<span></span>
+     </div>
+
+     <div class="responsive-menu">
+        <ul>
+           <li>1. Object</li>
+           <li>2. Object</li>
+        </ul>
+     </div>
+</div> -->
     <div class="hr1">
     </div>
     <div class="">
@@ -36,6 +76,25 @@
         display flex
       </div>
     </div>
+
+    <div class="mobile-nav">
+         <div class="menu-btn" id="menu-btn">
+    	<div></div>
+    	<span></span>
+    	<span></span>
+    	<span></span>
+         </div>
+
+         <div class="responsive-menu">
+            <ul>
+               <li>1. Object</li>
+               <li>2. Object</li>
+            </ul>
+         </div>
+    </div>
+
+
+
     <div class="partiallist">
       <p style="text-align: center; margin-top:2%;">Partial List of Previous Bicycle Recipients</p>
       <div class="logo-imgs">

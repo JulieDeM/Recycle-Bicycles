@@ -4,7 +4,7 @@ function myFunction() {
     if (x.className === "topnav") {
         x.className += " responsive";
         // x.className.onClick(){
-        //
+        // //
         // }
     } else {
         x.className = "topnav";

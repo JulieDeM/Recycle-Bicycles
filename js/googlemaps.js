@@ -33,9 +33,9 @@
             [('<div id="iw-container">' +
                     '<div class="iw-title">Bicycle Village - Littleton</div>' +
                     '<div class="iw-content">' +
-                      '<div class="iw-subTitle">West Crestline Avenue, Littleton, CO</div>' +
-                      '<p>8100 W Crestline Ave<br>Littleton, CO 80123<br>'+
-                      '<br>Phone: (303) 978-9699<br>'+ '<a href="https://goo.gl/pYqk8z" target="_blank" class="iw-directions">Directions</a>' +'</p>'+
+                      '<div class="iw-subTitle">8100 W Crestline Ave<br>Littleton, CO 80123</div>' +
+                      '<p>'+
+                      'Phone: (303) 978-9699<br>'+ '<a href="https://goo.gl/pYqk8z" target="_blank" class="iw-directions">Directions</a>' +'</p>'+
                     '</div>' +
                     '<div class="iw-bottom-gradient"></div>' +
                   '</div>'), 39.616836, -105.088404, 3],
@@ -43,9 +43,9 @@
             [('<div id="iw-container">' +
                     '<div class="iw-title">Bicycle Village - Westminster</div>' +
                     '<div class="iw-content">' +
-                      '<div class="iw-subTitle">Wadsworth Parkway, Westminster, CO</div>' +
-                      '<p>Brookhill Shopping Center, 9170 Wadsworth Pkwy<br>Westminster, CO 80021<br>'+
-                      '<br>Phone: (303) 421-4001<br>'+ '<a href="https://goo.gl/wwKw5K" target="_blank" class="iw-directions">Directions</a>' +'</p>'+
+                      '<div class="iw-subTitle">Brookhill Shopping Center, 9170 Wadsworth Pkwy<br>Westminster, CO 80021</div>' +
+                      '<p>'+
+                      'Phone: (303) 421-4001<br>'+ '<a href="https://goo.gl/wwKw5K" target="_blank" class="iw-directions">Directions</a>' +'</p>'+
                     '</div>' +
                     '<div class="iw-bottom-gradient"></div>' +
                   '</div>'), 39.862467, -105.081046, 2],
@@ -53,9 +53,9 @@
             [('<div id="iw-container">' +
                     '<div class="iw-title">Bicycle Village - Boulder</div>' +
                     '<div class="iw-content">' +
-                      '<div class="iw-subTitle">28th Street, Boulder, CO</div>' +
-                      '<p>Crossroad Commons, 2100 28th St<br>Boulder, CO 80301<br>'+
-                      '<br>Phone: (303) 440-8525<br>'+ '<a href="https://goo.gl/FUHeqe" target="_blank" class="iw-directions">Directions</a>' +'</p>'+
+                      '<div class="iw-subTitle">Crossroad Commons, 2100 28th St<br>Boulder, CO 80301</div>' +
+                      '<p>'+
+                      'Phone: (303) 440-8525<br>'+ '<a href="https://goo.gl/FUHeqe" target="_blank" class="iw-directions">Directions</a>' +'</p>'+
                     '</div>' +
                     '<div class="iw-bottom-gradient"></div>' +
                   '</div>'), 40.023951, -105.257341, 1],
@@ -63,22 +63,22 @@
             [('<div id="iw-container">' +
                     '<div class="iw-title">Bicycle Village - Colorado Springs</div>' +
                     '<div class="iw-content">' +
-                      '<div class="iw-subTitle">Montebello Square Drive, Colorado Springs, CO</div>' +
-                      '<p>2450 Montebello Square Dr<br>Colorado Springs, CO 80918<br>'+
-                      '<br>Phone: (719) 265-9346<br>'+ '<a href="https://goo.gl/diUoJU" target="_blank" class="iw-directions">Directions</a>' +'</p>'+
+                      '<div class="iw-subTitle">2450 Montebello Square Dr<br>Colorado Springs, CO 80918</div>' +
+                      '<p>'+
+                      'Phone: (719) 265-9346<br>'+ '<a href="https://goo.gl/diUoJU" target="_blank" class="iw-directions">Directions</a>' +'</p>'+
                     '</div>' +
                     '<div class="iw-bottom-gradient"></div>' +
-                  '</div>'),38.908697,-104.781862 ,6],
+                  '</div>'),38.908697,-104.781862 ,6]
             // ['Bicycle Village - Colorado Springs, Montebello Square Drive, Colorado Springs, CO',38.908697,-104.781862 ,6],
-            [('<div id="iw-container">' +
-                    '<div class="iw-title">Broadway & Mexico Self Storage</div>' +
-                    '<div class="iw-content">' +
-                      '<div class="iw-subTitle">South Broadway, Denver, CO</div>' +
-                      '<p>1699 S Broadway<br>Denver, CO 80210<br>'+
-                      '<br>Phone: (303) 733-3300<br>'+ '<a href="https://goo.gl/UwSfqs" target="_blank" class="iw-directions">Directions</a>' +'</p>'+
-                    '</div>' +
-                    '<div class="iw-bottom-gradient"></div>' +
-                  '</div>'),39.686191,-104.987755 ,7]
+            // [('<div id="iw-container">' +
+            //         '<div class="iw-title">Broadway & Mexico Self Storage</div>' +
+            //         '<div class="iw-content">' +
+            //           '<div class="iw-subTitle">1699 S Broadway<br>Denver, CO 80210</div>' +
+            //           '<p>'+
+            //           'Phone: (303) 733-3300<br>'+ '<a href="https://goo.gl/UwSfqs" target="_blank" class="iw-directions">Directions</a>' +'</p>'+
+            //         '</div>' +
+            //         '<div class="iw-bottom-gradient"></div>' +
+            //       '</div>'),39.686191,-104.987755 ,7]
             // ['Broadway & Mexico Self Storage, South Broadway, Denver, CO',39.686191,-104.987755 ,7]
           ];
 
